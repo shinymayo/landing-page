@@ -1,0 +1,142 @@
+* {
+    font-family: sans-serif, 'Courier New', monospace;
+    margin: 0;
+}
+header, footer {
+    background-color: #1F2937;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+}
+h2,
+h3 {
+    font-weight: extra-bold;
+}
+li {
+    list-style: none;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, footer {
+    color: #F9FAF8;
+}
+a, 
+.intro {
+    color: #E5E7EB;
+    max-width: 400px;
+}
+.top {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid 1px #3882F6;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin: 20px 0px;
+
+}
+.top:hover {
+    border: solid 1px #F9FAF8;
+}
+.thor {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 55px 100px;
+    display: flex;
+    flex-direction: column;
+}
+.bottom {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border: solid 1px #F9FAF8;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin: 20px;
+    
+}
+.bottom:hover {
+    border: solid 1px #1F2937;
+    color:#1F2937;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.beginning {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.heading {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 25px 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 35px;
+    gap: 34px;
+}
+.newsletter {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    margin: 32px 52px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h5 {
+    font-size: 23px;
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
+}
+.illustration {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-;
+    align-items: center;
+    gap: 35px;
+}
+.text {
+    text-align: center;
+    margin: 0 25px;
+}
+.bird {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 0 36px;
+}
+.signature {
+    font-weight: 900;
+    font-size: 23px;
+    align-self: flex-end;
+}
+footer {
+    padding: 15px 0px;
+    text-align: center;
+}
